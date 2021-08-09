@@ -1,0 +1,47 @@
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-row-gap: 1%;
+    margin-top: 2%;
+}
+
+.product-container img {
+    width: 70%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style star */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.container-star{
+  position: relative;
+  width: auto;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-star .star-widget input{
+  display: none;
+}
+.star-widget label{
+  font-size: 35px;
+  color: #444;
+  padding: 10px;
+  float: right;
+}
+
+/* input[checked] ~ label{
+    color: #fd4;
+}  */
+

@@ -1,0 +1,24 @@
+.container-fluid {
+    padding:0;
+    background-color: #1f601f;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+/* cartProduct */
+a {
+    font-size: larger;
+}
+
+#cartProducts {
+    font-size: 25px;
+    color: white;
+}
+
+#cartProducts span {
+    vertical-align: super;
+    line-height: 0.3;
+    font-size: 20px;
+    color: rgb(226, 26, 26);
+}
